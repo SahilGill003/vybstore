@@ -29,6 +29,19 @@ h4 {
   font-size: 1rem;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
 .heading_1>span {
   @apply rounded-lg font-bold p-2;
 }
@@ -45,7 +58,7 @@ h4 {
 
 .cta {
   font-size: 1rem;
-  @apply font-semibold;
+  @apply font-bold;
 }
 
 .menu {

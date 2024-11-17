@@ -6,7 +6,7 @@ const GetStartedSection = () => {
     <section
       className={"space-y-[2.5rem] *:m-auto md:col-start-1 md:col-end-3"}
     >
-      <h4 className={"text-xl md:text-3xl text-primary font-bold text-center"}>
+      <h4 className={"text-2xl md:text-3xl text-primary font-bold text-center"}>
         How to get started?
       </h4>
       <article

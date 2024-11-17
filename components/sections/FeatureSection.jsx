@@ -11,7 +11,7 @@ const FeatureSection = () => {
     >
       <h3
         className={
-          "text-primary text-xl md:text-2xl font-bold space-y-4 mb-3 md:mb-5"
+          "text-primary text-2xl md:text-3xl font-bold space-y-4 mb-4 md:mb-5"
         }
       >
         From Creation to Monetization: Vyb Store Has It All
